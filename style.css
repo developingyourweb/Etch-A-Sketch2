@@ -1,0 +1,62 @@
+/** {
+    border: 1px solid red;
+}*/
+
+.block {
+    display: inline-block;
+    float: left;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: none;
+    background-color: pink;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.row {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#blockbox {
+    height: 700px;
+    width: 700px;
+    float: both;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+body {
+    background-color: rgb(245,250,255);
+}
+
+#buttonbar {
+    display: block;
+    width: 45%;
+    height: 100px;
+    margin: 0 auto;
+    /*margin-top: 100px;
+    margin-bottom: 20px;*/
+    border: 2px solid black;
+    letter-spacing: 30px;
+}
+
+#buttoncontainer {
+    width: 400px;
+    margin: auto;
+    padding: 29px;
+}
+
+button {
+    background-color: ghostwhite;
+    border-radius: 2px;
+    height: 40px;
+    width: 70px;
+    display: inline-block;
+}
+
